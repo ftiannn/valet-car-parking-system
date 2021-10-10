@@ -11,13 +11,11 @@
 ## To run the program: 
 Prerequisites: Node and NPM
 
-Input File: `src/input/input-file.js`
+Steps:
+1. ```npm install```
+2. ```npm run start```
 
-Scripts: 
-1. npm install
-2. npm run start
-
-*(optional) npm run test*
+*(optional) ```npm run test```*
 
 ## :file_folder: Project Structure
 ```
@@ -34,7 +32,7 @@ Scripts:
  ┗ 📜package.json
 ```
 
-## Entitles
+## Entities
 1. ParkingLot: :parking:
     - carLot & motorCycleLot in array structure. Eg. [0,0,0]
 2. Vehicle: :red_car:
