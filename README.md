@@ -53,6 +53,18 @@ Error that has been handled includes:
 - [x] Invalid car type upon entering
 - [x] Invalid vehicle plate upon exiting
 - [x] Exit Time before entry time error 
-    
-    
-    
+
+
+## Unit Test Coverage
+
+- Automated unit test for all methods
+<img width="579" alt="Screenshot 2021-10-10 at 3 27 44 PM" src="https://user-images.githubusercontent.com/26644922/136686753-cb78b0b3-6531-4bc5-ac2d-9a691b4170e8.png">
+
+- Manual test on index.js to simulate different input files
+
+
+## Future Enhancement
+- [] Accept more than 1 input-file 
+- [] Unit test on index.js
+- [] OutputHandler to handle all console.log
+
