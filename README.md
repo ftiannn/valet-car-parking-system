@@ -19,7 +19,7 @@ Scripts:
 
 *(optional) npm run test*
 
-## Project Structure
+## :file_folder: Project Structure
 ```
 📦valet-car-parking-system
  ┣ 📂src
@@ -35,9 +35,9 @@ Scripts:
 ```
 
 ## Entitles
-1. ParkingLot:
+1. ParkingLot: :parking:
     - carLot & motorCycleLot in array structure. Eg. [0,0,0]
-2. Vehicle:  
+2. Vehicle: :red_car:
     - contains vehicle details such as car type, car plate number, parking lot assigned, and entry time stamp
 
 ## [Flow Structure](#flowStructure)
@@ -47,10 +47,12 @@ Scripts:
     1. if first word of the line = 'Enter' -> create new `Vehicle` and store it in the first available car lot of `ParkingLot` 
     2. if first word of the line = 'Exit' -> find car plate number from `Vehicle` and remove it from the car lot of `ParkingLot`
     
-## Error Handling
+## Error Handling 
+:pushpin: consolidating all in a single handler to allow future enhancement 
+
 Error that has been handled includes: 
 - [x] Input Error
-- [x] Invalid car type upon entering
+- [x] Invalid car type upon entering (Allowing only 2 types. Making it easier to add on new vehicle & price in the future)
 - [x] Invalid vehicle plate upon exiting
 - [x] Exit Time before entry time error 
 
@@ -62,9 +64,8 @@ Error that has been handled includes:
 
 - Manual test on index.js to simulate different input files
 
-
 ## Future Enhancement
-- [ ] Accept more than 1 input-file 
-- [ ] Unit test on index.js
+- [ ] Flexibility to switch between different input files
+- [ ] Unit test on index.js to input different input file and file types
 - [ ] OutputHandler to handle all console.log
 
