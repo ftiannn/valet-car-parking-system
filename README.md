@@ -64,7 +64,7 @@ Error that has been handled includes:
 
 
 ## Future Enhancement
-- [] Accept more than 1 input-file 
-- [] Unit test on index.js
-- [] OutputHandler to handle all console.log
+- [ ] Accept more than 1 input-file 
+- [ ] Unit test on index.js
+- [ ] OutputHandler to handle all console.log
 
