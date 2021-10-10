@@ -36,7 +36,7 @@ Scripts:
 ## Error Handling
 Error that has been handled includes: 
 
-1. Input
+1. Input Error
 2. Invalid car type upon entering
 3. Invalid vehicle plate upon exiting
 4. Exit Time before entry time error 
