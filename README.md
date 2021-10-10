@@ -17,7 +17,7 @@ Scripts:
 1. npm install
 2. npm run start
 
-(optional) npm run test
+*(optional) npm run test*
 
 ## Project Structure
 ```
@@ -34,7 +34,6 @@ Scripts:
  ┗ 📜package.json
 ```
 
-
 ## Entitles
 1. ParkingLot:
     - carLot & motorCycleLot in array structure. Eg. [0,0,0]
@@ -50,11 +49,10 @@ Scripts:
     
 ## Error Handling
 Error that has been handled includes: 
-
-[x] Input Error
-[x] Invalid car type upon entering
-[x] Invalid vehicle plate upon exiting
-[x] Exit Time before entry time error 
+- [x] Input Error
+- [x] Invalid car type upon entering
+- [x] Invalid vehicle plate upon exiting
+- [x] Exit Time before entry time error 
     
     
     
