@@ -19,7 +19,21 @@ Scripts:
 
 (optional) npm run test
 
-...
+## Project Structure
+```
+📦valet-car-parking-system
+ ┣ 📂src
+ ┃ ┗ 📜index.js
+ ┃ ┗ 📂constants
+ ┃ ┗ 📂entities
+ ┃ ┗ 📂handler
+ ┃ ┗ 📂input
+ ┣ 📜.gitignore
+ ┣ 📜 readme.md
+ ┣ 📜package-lock.json
+ ┗ 📜package.json
+```
+
 
 ## Entitles
 1. ParkingLot:
