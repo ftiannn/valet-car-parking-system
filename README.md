@@ -16,6 +16,7 @@ Input File: `src/input/input-file.js`
 Scripts: 
 1. npm install
 2. npm run start
+
 (optional) npm run test
 
 ...
