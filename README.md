@@ -52,7 +52,7 @@ Scripts:
 
 Error that has been handled includes: 
 - [x] Input Error
-- [x] Invalid car type upon entering (Allowing only 2 types. Making it easier to add on new vehicle & price in the future)
+- [x] Invalid car type upon entering (Allowing only 2 types. To allow new vehicle & price in the future)
 - [x] Invalid vehicle plate upon exiting
 - [x] Exit Time before entry time error 
 
